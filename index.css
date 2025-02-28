@@ -1,0 +1,36 @@
+body {
+	font-family: oswarld, sans-serif;
+}
+/* Top Navigation Styling */
+.Topnav {
+/*		justify-context: space-between;*/
+	align-items: center;
+		padding: 15px;
+		
+}
+.nav-links {
+		list-style: none;
+		dispaly: flex;
+}
+.nav-links li {
+		MARGIN: 0 45PX;
+}
+ 
+@Media (max-width: 760px) {
+.nav-links{
+		flex-direction: column;
+		position: absolute;
+		top:60px
+		left; 0;
+		width: 100%;
+		padding: 10px;
+*/
+}
+.navlinks li {
+		text-align: center;
+}
+
+} 
+		
+		
+	
